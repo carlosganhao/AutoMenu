@@ -1,0 +1,21 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <engine:VisualElement name="main-container" enabled="true" style="flex-grow: 1; border-left-color: rgba(255, 255, 255, 0.25); border-right-color: rgba(255, 255, 255, 0.25); border-top-color: rgba(255, 255, 255, 0.25); border-bottom-color: rgba(255, 255, 255, 0.25); border-bottom-width: 1px; border-top-width: 0; padding-bottom: 2px; padding-top: 6px; margin-bottom: 0; padding-right: 0; margin-right: 0;">
+        <engine:TextField placeholder-text="button name here" name="button-text" binding-path="Text" hide-placeholder-on-focus="true" tooltip="The name of the button in the menu" class="auto-menu-name-field" style="margin-left: 12px; margin-right: 12px;" />
+        <engine:ListView name="button-classes" show-add-remove-footer="true" header-title="Classes" show-foldout-header="true" show-border="true" virtualization-method="DynamicHeight" binding-path="ExtraClasses" tooltip="Extra USS classes to be added to the button" fixed-item-height="22" class="auto-menu-class-list" style="margin-right: 0;" />
+        <engine:EnumField label="Type" value="Center" name="button-type" binding-path="ButtonType" type="AutoMenu.ButtonType, Cooli2.AutoMenu" tooltip="The type of the button to be added." />
+        <engine:VisualElement name="generic-button-properties" style="flex-grow: 1;">
+            <editor:PropertyField name="button-event" binding-path="Event" label="Custom Event" />
+            <editor:PropertyField name="button-condition" binding-path="Condition" data-source-type="UnityEngine.Events.UnityEvent, UnityEngine.CoreModule" />
+        </engine:VisualElement>
+        <engine:VisualElement name="play-button-properties" style="flex-grow: 1;">
+            <engine:IntegerField label="Scene Id To Play" value="0" name="play-button-scene-id" binding-path="SceneIdToPlay" />
+        </engine:VisualElement>
+        <engine:VisualElement name="settings-button-properties" style="flex-grow: 1;">
+            <engine:Toggle label="Use Custom Page" binding-path="UseCustomSettings" name="settings-button-use-custom-toggle" />
+            <editor:PropertyField name="settings-on-load-custom-page-event" binding-path="OnLoadCustomSettings" />
+        </engine:VisualElement>
+        <engine:VisualElement name="quit-button-properties" style="flex-grow: 1;">
+            <engine:Toggle label="Show Warning" binding-path="ShowWarning" name="quit-button-warning-toggle" />
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>

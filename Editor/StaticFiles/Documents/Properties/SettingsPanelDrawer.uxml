@@ -1,0 +1,21 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <engine:VisualElement name="main-container" style="flex-grow: 1; padding-top: 6px; padding-bottom: 2px; border-bottom-width: 1px; border-left-color: rgba(255, 255, 255, 0.25); border-right-color: rgba(255, 255, 255, 0.25); border-top-color: rgba(255, 255, 255, 0.25); border-bottom-color: rgba(255, 255, 255, 0.25);">
+        <engine:TextField placeholder-text="Name" name="panel-name" binding-path="PanelName" class="auto-menu-name-field" style="margin-left: 12px; margin-right: 12px;" />
+        <engine:EnumField label="Panel Type" value="Center" type="AutoMenu.SettingsPanelType, Cooli2.AutoMenu" binding-path="PanelType" name="panel-type" />
+        <engine:VisualElement name="graphics-settings-section" style="flex-grow: 1;">
+            <engine:Toggle label="Use Resolution" name="use-resolution" binding-path="UseResolution" />
+            <engine:Toggle label="Use Fullscreen" name="use-fullscreen" binding-path="UseFullscreen" />
+            <engine:Toggle label="Use Quality Level" name="use-quality" binding-path="UseQualityLevel" />
+            <engine:Toggle label="Use Vsync" name="use-vsync" binding-path="UseVsync" />
+        </engine:VisualElement>
+        <engine:VisualElement name="audio-settings-section" style="flex-grow: 1;">
+            <editor:PropertyField binding-path="AudioParameters" name="audio-parameters" />
+        </engine:VisualElement>
+        <engine:VisualElement name="controls-settings-section" style="flex-grow: 1;">
+            <engine:DropdownField label="Control Scheme" binding-path="ControlScheme" name="control-scheme" />
+        </engine:VisualElement>
+        <engine:VisualElement name="generic-settings-section" style="flex-grow: 1;">
+            <editor:PropertyField name="generic-parameters" binding-path="GenericParameters" />
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>

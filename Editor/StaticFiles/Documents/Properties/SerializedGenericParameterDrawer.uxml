@@ -1,0 +1,17 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <engine:VisualElement name="main-container" style="flex-grow: 1;">
+        <engine:TextField label="Name" placeholder-text="Name" name="parameter-name" binding-path="Name" />
+        <engine:TextField label="Perf Key" placeholder-text="Key" name="parameter-pref-key" binding-path="PrefsKey" hide-placeholder-on-focus="false" />
+        <engine:EnumField label="Type" value="Center" type="AutoMenu.ParameterType, Cooli2.AutoMenu" name="parameter-type" binding-path="Type" />
+        <engine:VisualElement name="group-parameter-section" style="flex-grow: 1;">
+            <editor:PropertyField name="parameter-options" binding-path="Options" />
+        </engine:VisualElement>
+        <engine:VisualElement name="slider-parameter-section" style="flex-grow: 1;">
+            <engine:FloatField label="Min Value" value="0" name="parameter-min-value" binding-path="MinValue" />
+            <engine:FloatField label="Max Value" value="100" name="parameter-max-value" binding-path="MaxValue" />
+        </engine:VisualElement>
+        <engine:IntegerField label="Default Value" value="50" name="parameter-default-value" binding-path="DefaultValue" />
+        <editor:PropertyField name="parameter-on-startup" binding-path="OnStartup" />
+        <editor:PropertyField name="parameter-on-value-changed" binding-path="OnValueChanged" />
+    </engine:VisualElement>
+</engine:UXML>

@@ -1,0 +1,82 @@
+.auto-menu-root-container {
+}
+
+.auto-menu-container {
+}
+
+.auto-menu-logo {
+}
+
+.auto-menu-footer {
+}
+
+.auto-menu-button {
+}
+
+.auto-menu-button:hover {
+}
+
+.auto-menu-play-button {
+}
+
+.auto-menu-play-button:hover {
+}
+
+.auto-menu-general-button {
+}
+
+.auto-menu-general-button:hover {
+}
+
+.auto-menu-settings-button {
+}
+
+.auto-menu-settings-button:hover {
+}
+
+.auto-menu-quit-button {
+}
+
+.auto-menu-quit-button:hover {
+}
+
+.auto-menu-back-button {
+}
+
+.auto-menu-back-button:hover {
+}
+
+.auto-menu-cancel-button {
+}
+
+.auto-menu-cancel-button:hover {
+}
+
+.auto-menu-confirm-button {
+}
+
+.auto-menu-confirm-button:hover {
+}
+
+.auto-menu-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.13);
+}
+
+.auto-menu-dialog {
+    margin-top: auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: auto;
+}
+
+.auto-menu-quit-warning-button-container {
+    flex-direction: row;
+}
+
+.auto-menu-quit-warning-text {
+}

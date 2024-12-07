@@ -1,0 +1,171 @@
+.auto-menu-root-container {
+    background-color: rgb(41, 41, 41);
+}
+
+.auto-menu-container {
+    background-color: rgb(63, 63, 63);
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.auto-menu-logo {
+    margin-top: 48px;
+    margin-bottom: 32px;
+    font-size: 64px;
+    color: rgb(255, 255, 255);
+    -unity-text-align: middle-center;
+    -unity-font-style: bold;
+}
+
+.auto-menu-footer {
+    color: rgb(128, 128, 128);
+    padding-bottom: 4px;
+}
+
+.auto-menu-button {
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(255, 255, 255);
+    -unity-text-align: middle-center;
+    font-size: 28px;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    transition-duration: 0.5s;
+}
+
+.auto-menu-button:hover {
+    scale: 1.5 1.5;
+    transition-duration: 0.5s;
+}
+
+.auto-menu-play-button {
+    -unity-font-style: bold;
+}
+
+.auto-menu-play-button:hover {
+}
+
+.auto-menu-general-button {
+}
+
+.auto-menu-general-button:hover {
+}
+
+.auto-menu-settings-button {
+}
+
+.auto-menu-settings-button:hover {
+}
+
+.auto-menu-quit-button {
+}
+
+.auto-menu-quit-button:hover {
+}
+
+.auto-menu-back-button {
+    font-size: 18px;
+    border-left-color: rgb(192, 192, 192);
+    border-right-color: rgb(192, 192, 192);
+    border-top-color: rgb(192, 192, 192);
+    border-bottom-color: rgb(192, 192, 192);
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    width: 100px;
+    margin-right: 8px;
+    margin-left: 8px;
+}
+
+.auto-menu-back-button:hover {
+    background-color: rgba(192, 192, 192, 0.25);
+    transition-duration: 0.5s;
+    scale: 1 1;
+}
+
+.auto-menu-cancel-button {
+    font-size: 18px;
+    border-left-color: rgb(192, 192, 192);
+    border-right-color: rgb(192, 192, 192);
+    border-top-color: rgb(192, 192, 192);
+    border-bottom-color: rgb(192, 192, 192);
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    width: 100px;
+    margin-right: 8px;
+    margin-left: 8px;
+}
+
+.auto-menu-cancel-button:hover {
+    background-color: rgba(192, 192, 192, 0.25);
+    transition-duration: 0.5s;
+    scale: 1 1;
+}
+
+.auto-menu-confirm-button {
+    font-size: 18px;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-left-color: rgb(192, 192, 192);
+    border-right-color: rgb(192, 192, 192);
+    border-top-color: rgb(192, 192, 192);
+    border-bottom-color: rgb(192, 192, 192);
+    width: 100px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.auto-menu-confirm-button:hover {
+    background-color: rgba(192, 192, 192, 0.25);
+    transition-duration: 0.5s;
+    scale: 1 1;
+}
+
+.auto-menu-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.13);
+}
+
+.auto-menu-dialog {
+    margin-top: auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: auto;
+    background-color: rgb(63, 63, 63);
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    border-left-color: rgb(192, 192, 192);
+    border-right-color: rgb(192, 192, 192);
+    border-top-color: rgb(192, 192, 192);
+    border-bottom-color: rgb(192, 192, 192);
+    padding-top: 16px;
+    padding-right: 16px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+}
+
+.auto-menu-quit-warning-button-container {
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+.auto-menu-quit-warning-text {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    -unity-text-align: middle-center;
+}

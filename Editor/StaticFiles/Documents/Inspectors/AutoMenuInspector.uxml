@@ -1,0 +1,15 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <engine:VisualElement name="header" style="flex-grow: 0; border-bottom-width: 1px; border-top-width: 0; border-left-color: rgba(210, 210, 210, 0.5); border-right-color: rgba(210, 210, 210, 0.5); border-top-color: rgba(210, 210, 210, 0.5); border-bottom-color: rgba(210, 210, 210, 0.5); margin-top: 2px; margin-bottom: 8px; background-color: rgba(0, 0, 0, 0); margin-right: 0; margin-left: 0;">
+        <engine:Label text="Auto Menu" name="header-title" style="font-size: 18px; -unity-text-align: middle-left; text-shadow: 2px 1px 2.6px rgba(0, 0, 0, 0.21); -unity-font-style: italic; border-left-color: rgba(210, 210, 210, 0.5); border-right-color: rgba(210, 210, 210, 0.5); border-top-color: rgba(210, 210, 210, 0.5); border-bottom-color: rgba(210, 210, 210, 0.5); border-bottom-width: 0; padding-bottom: 0; padding-top: 0; padding-right: 2px; padding-left: 2px; margin-bottom: 4px; margin-top: 4px; border-top-width: 0;" />
+    </engine:VisualElement>
+    <engine:VisualElement name="body" style="flex-grow: 1; margin-left: 0; margin-right: 0;">
+        <engine:Toggle label="Use Custom Page" binding-path="UseCustomPage" name="auto-menu-custom-page-toggle" />
+        <engine:VisualElement name="auto-menu-custom-page-group">
+            <engine:TextField label="Title Text" placeholder-text="title text here" name="auto-menu-title-field" binding-path="_titleText" />
+            <engine:TextField label="Footer Text" placeholder-text="footer text here" name="auto-menu-footer-field" binding-path="_footerText" />
+        </engine:VisualElement>
+        <engine:TextField label="Container Id" placeholder-text="filler text" binding-path="ContainerId" name="auto-menu-id-field" value="container-id-here" hide-placeholder-on-focus="true" tooltip="The id of the container to which the Auto Menu buttons will be attached to." />
+        <editor:PropertyField name="auto-menu-style-sheet-field" binding-path="_autoMenuStyleSheet" label="Style Sheet" />
+        <engine:ListView name="auto-menu-butons" binding-path="_buttons" show-border="true" view-data-key="auto-menu-buttons" header-title="Buttons" binding-source-selection-mode="Manual" show-foldout-header="true" reorderable="true" virtualization-method="DynamicHeight" show-add-remove-footer="true" />
+    </engine:VisualElement>
+</engine:UXML>

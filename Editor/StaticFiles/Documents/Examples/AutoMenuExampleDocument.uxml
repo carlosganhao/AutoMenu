@@ -1,0 +1,27 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <engine:VisualElement name="main-container" class="auto-menu-root-container" style="flex-grow: 1;">
+        <engine:VisualElement name="middle-container" class="auto-menu-container" style="align-items: center; flex-grow: 1;">
+            <engine:VisualElement name="logo-container" class="auto-menu-logo" style="flex-grow: 0; background-image: none;">
+                <engine:Label text="Game Logo" name="logo-text" />
+            </engine:VisualElement>
+            <engine:VisualElement name="menu-buttons-container" style="flex-grow: 1;">
+                <engine:Button text="Play Button" name="play-button" class="auto-menu-button auto-menu-play-button" />
+                <engine:Button text="General Button" name="general-button" enable-rich-text="true" class="auto-menu-button auto-menu-general-button" />
+                <engine:Button text="Settings Button" name="settings-button" class="auto-menu-button auto-menu-settings-button" />
+                <engine:Button text="Quit Button" name="quit-button" class="auto-menu-button auto-menu-quit-button" />
+            </engine:VisualElement>
+            <engine:VisualElement name="footer-container" class="auto-menu-footer" style="flex-grow: 0;">
+                <engine:Label text="Label" name="footer-text" />
+            </engine:VisualElement>
+        </engine:VisualElement>
+    </engine:VisualElement>
+    <engine:VisualElement name="auto-menu-quit-warning-overlay" class="auto-menu-overlay">
+        <engine:VisualElement name="auto-menu-quit-warning" class="auto-menu-dialog">
+            <engine:Label text="Would you like to quit?" name="quit-text" class="auto-menu-quit-warning-text" />
+            <engine:VisualElement name="button-container" class="auto-menu-quit-warning-button-container">
+                <engine:Button text="Cancel" name="cancel-button" class="auto-menu-button auto-menu-cancel-button" />
+                <engine:Button text="Confirm&#10;" name="confirm-button" class="auto-menu-button auto-menu-confirm-button" />
+            </engine:VisualElement>
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>

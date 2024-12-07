@@ -1,0 +1,17 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <engine:VisualElement name="auto-settings-root" class="auto-settings-root" style="flex-grow: 1;">
+        <engine:TabView name="auto-settings-container" class="auto-settings-container" style="flex-grow: 1;">
+            <engine:Tab label="Tab" name="settings-tab" class="auto-settings-tab">
+                <engine:RadioButtonGroup label="Radio Button Group" name="bool-parameter" choices="Yes,No" value="-1" class="auto-settings-parameter auto-settings-bool-field" />
+                <engine:DropdownField label="Dropdown" name="dropdown-parameter" class="auto-settings-parameter auto-settings-dropdown-field" />
+                <engine:Slider label="Slider" value="42" high-value="100" name="slider-parameter" class="auto-settings-parameter auto-settings-slider-field" />
+                <engine:VisualElement name="control-parameter" class="auto-settings-parameter auto-settings-control-field" style="flex-grow: 1; flex-direction: row;">
+                    <engine:Label text="Label" name="control-label" class="auto-settings-control-field-label" />
+                    <engine:Button text="Button" name="control-space" class="auto-settings-control-field-space" />
+                    <engine:Button text="Button" name="control-reset" class="auto-settings-control-field-reset" />
+                </engine:VisualElement>
+            </engine:Tab>
+        </engine:TabView>
+        <engine:Button text="Back" name="auto-settings-back-button" class="auto-menu-button auto-menu-back-button" style="width: 10%;" />
+    </engine:VisualElement>
+</engine:UXML>

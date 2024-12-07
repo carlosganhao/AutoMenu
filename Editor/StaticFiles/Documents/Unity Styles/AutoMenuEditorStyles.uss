@@ -1,0 +1,29 @@
+.auto-menu-editor {
+    margin-left: -9px;
+}
+
+.auto-settings-editor {
+    margin-left: -9px;
+}
+
+.auto-menu-name-field .unity-text-element {
+    -unity-text-align: middle-center;
+    font-size: 14px;
+}
+
+.auto-menu-class-list ScrollView #unity-content-container {
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: initial;
+    max-height: initial;
+}
+
+.auto-menu-class-list ScrollView TextElement {
+    color: rgb(199, 199, 100);
+}
+
+.auto-menu-class-list ScrollView Label {
+    color: rgb(199, 199, 100);
+    display: none;
+}

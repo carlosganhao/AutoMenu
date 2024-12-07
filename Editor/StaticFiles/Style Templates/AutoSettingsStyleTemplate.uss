@@ -1,0 +1,143 @@
+.auto-settings-root {
+}
+
+.auto-settings-container {
+}
+
+.auto-settings-container .unity-tab-view__header-container {
+}
+
+.auto-settings-container .unity-tab-view__header-container .unity-tab__header {
+}
+
+.auto-settings-container .unity-tab-view__header-container .unity-tab__header > .unity-tab__header-underline {
+}
+
+.auto-settings-container .unity-tab-view__header-container .unity-tab__header:checked {
+}
+
+.auto-settings-container .unity-tab-view__header-container .unity-tab__header:checked > .unity-tab__header-underline {
+}
+
+.auto-settings-tab {
+}
+
+.auto-settings-parameter {
+}
+
+.auto-settings-parameter > .unity-label {
+}
+
+.auto-settings-parameter:focus {
+}
+
+.auto-settings-parameter:focus > .unity-label {
+}
+
+.auto-settings-bool-field {
+}
+
+.auto-settings-bool-field > .unity-label {
+}
+
+.auto-settings-bool-field .unity-radio-button-group__container {
+}
+
+.auto-settings-bool-field .unity-radio-button {
+}
+
+.auto-settings-bool-field .unity-radio-button__input {
+}
+
+.auto-settings-bool-field .unity-radio-button__checkmark-background {
+}
+
+.auto-settings-bool-field .unity-radio-button__checkmark {
+}
+
+.auto-settings-bool-field .unity-radio-button__text {
+}
+
+.auto-settings-dropdown-field {
+}
+
+.auto-settings-dropdown-field .unity-label {
+}
+
+.auto-settings-dropdown-field .unity-base-field__input {
+}
+
+.auto-settings-dropdown-field .unity-base-popup-field__arrow {
+}
+
+.unity-base-dropdown .unity-base-dropdown__container-outer {
+}
+
+.unity-base-dropdown .unity-base-dropdown__container-outer .unity-scroll-view {
+}
+
+.unity-base-dropdown .unity-base-dropdown__container-outer .unity-scroll-view .unity-base-dropdown__item {
+}
+
+.unity-base-dropdown .unity-base-dropdown__container-outer .unity-scroll-view .unity-base-dropdown__item-content {
+}
+
+.unity-base-dropdown .unity-base-dropdown__container-outer .unity-scroll-view .unity-base-dropdown__checkmark {
+}
+
+.unity-base-dropdown .unity-base-dropdown__container-outer .unity-scroll-view .unity-base-dropdown__label {
+}
+
+.unity-scroll-view .unity-repeat-button {
+}
+
+.unity-scroll-view .unity-base-slider__tracker {
+}
+
+.unity-scroll-view .unity-base-slider__dragger {
+}
+
+.auto-settings-slider-field {
+}
+
+.auto-settings-slider-field .unity-label {
+}
+
+.auto-settings-slider-field .unity-base-slider__drag-container {
+}
+
+.auto-settings-slider-field .unity-base-slider__tracker {
+}
+
+.auto-settings-slider-field .unity-base-slider__fill {
+}
+
+.auto-settings-slider-field .unity-base-slider__dragger-border {
+}
+
+.auto-settings-slider-field .unity-base-slider__dragger {
+}
+
+.auto-settings-slider-field .unity-text-field {
+}
+
+.auto-settings-slider-field .unity-text-field__input {
+}
+
+.auto-settings-control-field {
+}
+
+.auto-settings-control-field-label {
+}
+
+.auto-settings-control-field-space {
+}
+
+.auto-settings-control-field-space:hover {
+}
+
+.auto-settings-control-field-reset {
+}
+
+.auto-settings-control-field-reset:hover {
+}

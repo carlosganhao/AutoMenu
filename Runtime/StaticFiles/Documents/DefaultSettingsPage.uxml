@@ -1,0 +1,6 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <engine:VisualElement name="auto-settings-root" class="auto-settings-root" style="flex-grow: 1;">
+        <engine:TabView name="auto-settings-container" class="auto-settings-container" style="flex-grow: 1;" />
+        <engine:Button text="Back" name="auto-settings-back-button" class="auto-menu-button auto-menu-back-button" style="width: 10%;" />
+    </engine:VisualElement>
+</engine:UXML>
